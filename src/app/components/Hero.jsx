@@ -107,6 +107,8 @@ return (
             <video
               ref={nextVideoRef}
               src={getVideoSource(upcommingVideoIndex)}
+              playsInline
+              webkit-playsinline="true"
               loop
               muted
               id="current-video"
@@ -118,6 +120,8 @@ return (
         <video
           ref={nextVideoRef}
           src={getVideoSource(currentIndex)}
+          playsInline
+          webkit-playsinline="true"
           loop
           muted
           id="next-video"
