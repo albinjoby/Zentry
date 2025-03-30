@@ -85,7 +85,7 @@ const Hero = () => {
 
 return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
-            {isLoading && (
+            {/* {isLoading && (
                     <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-white">
                             <div className="three-body">
                             <div className="three-body__dot" />
@@ -93,7 +93,7 @@ return (
                             <div className="three-body__dot" />
                             </div>
                     </div>
-            )}
+            )} */}
         <div
             id="video-frame"
             className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-blue-75"
